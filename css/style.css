@@ -1,0 +1,576 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+    --commoncolor: #fff;
+    --primarycolor: #6A4DF4;
+    --headingcolor: #151515;
+    --subheadingcolor: #737373;
+    --ratingcolor: #FFAC4A;
+    --primarybgcolor: #F8F6FE;
+    --secondarybgcolor: #F3F3F3;
+    --family: font-family: 'Inter', sans-serif;
+    --primaryweight: 400;
+    --scondaryweight: 600;
+    --tertiaryweight: 700;
+    --quaternary: 500;
+    --shapetwo: #4A92FF;
+    --bordercolor: #D0D0D0;
+}
+/* ======================
+     NAV PART CSS START
+==========================*/
+
+nav {
+  padding: 30px 0 !important;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #737373 !important;
+  display: inline-block;
+  transition: all linear 0.4s;
+}
+nav ul li a:hover {
+  color: #6a4df4 !important;
+}
+nav button {
+  border: 0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background: #6a4df4;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* ======================
+     NAV PART CSS END
+==========================*/
+
+/* ======================
+     BANNER PAER CSS START
+==========================*/
+#banner {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+#banner img {
+  width: 100%;
+}
+#banner .banner-text {
+  margin-top: 130px;
+}
+#banner .banner-text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 65px;
+  font-weight: 700 !important;
+  color: #151515;
+}
+#banner .banner-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  margin: 15px 0;
+}
+#banner button {
+  border: 0;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background: #6a4df4;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+/* ======================
+     BANNER PART CSS END
+==========================*/
+
+/* ======================
+     SUCCESS PART CSS START
+==========================*/
+#success {
+  margin: 45px 0;
+  margin-bottom: 100px;
+}
+#success .success-main {
+  padding: 40px;
+  background: #f8f6fe;
+  border-radius: 20px;
+}
+#success .success-main .success-left h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #6a4df4;
+}
+#success .success-main .success-left h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #151515;
+}
+#success .success-main .success-item h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #151515;
+  display: inline-block;
+}
+#success .success-main .success-item .two {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #151515;
+}
+#success .success-main .success-item h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #737373;
+  display: inline-block;
+}
+#success .success-main .success-item .four {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #737373;
+}
+#success .success-main .success-item i {
+  color: #ffac4a;
+  font-size: 15px;
+}
+#success .success-main .success-item a {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6a4df4;
+  display: block;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+#success .success-main .success-item a:hover {
+  text-decoration: none;
+}
+#success .success-main .success-item .item-img {
+  position: relative;
+}
+#success .success-main .success-item .item-img img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+#success .success-main .success-item .item-img .img2 {
+  left: 25px;
+}
+#success .success-main .success-item .item-img .img3 {
+  left: 50px;
+}
+#success .success-main .success-item .item-img .img4 {
+  left: 75px;
+}
+#success .success-main .success-item .item-img .img5 {
+  left: 100px;
+}
+/* ======================
+     SUCCESS PART CSS END
+==========================*/
+
+/* ======================
+     PROVIDE PART CSS START
+==========================*/
+#provide {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#provide h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+}
+#provide p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+  padding: 0 320px;
+  margin-bottom: 100px;
+}
+#provide .provide-item h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  margin: 20px 0;
+}
+#provide .provide-item p {
+  padding: 0;
+  margin: 0;
+}
+#provide .provide-item {
+  transition: 0.4s;
+  padding: 30px 20px;
+  position: relative;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+#provide .provide-item:hover {
+  box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+}
+/* ======================
+     PROVIDE PART CSS END
+==========================*/
+
+/* ======================
+     WORK PART CSS START
+==========================*/
+#work {
+  background: #f3f3f3;
+  padding: 100px 0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#work h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+}
+#work p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+  padding: 0 300px;
+  margin-bottom: 65px;
+}
+#work .work-item img {
+  width: 100%;
+}
+#work .work-item .banner-text {
+  padding: 30px 16px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 30px;
+}
+#work .work-item .banner-text p {
+  margin: 0;
+  padding: 0;
+}
+/* ======================
+     WORK PART CSS END
+==========================*/
+
+/* ======================
+     CHOOSE PART CSS START
+==========================*/
+#choose {
+  margin-bottom: 100px;
+}
+#choose .choose-left h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700 !important;
+  color: #151515;
+  padding-right: 20%;
+}
+#choose .choose-left p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 26px;
+  padding-right: 35%;
+  margin-bottom: 75px;
+}
+#choose .choose-left .choose-item {
+  margin: 20px 0;
+}
+#choose .choose-left .choose-item h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700 !important;
+  color: #151515;
+  margin: 7px 0;
+}
+#choose .choose-left .choose-item p {
+  margin: 0;
+  padding: 0;
+}
+#choose .choose-left .item3 {
+  width: 350px;
+  margin: 0 auto;
+}
+#choose .choose-right img {
+  width: 100%;
+  margin-top: 100px;
+}
+#choose .choose-left .choose-item img{
+  transition: .4s;
+}
+#choose .choose-left .choose-item:hover  img{
+  transform: rotateY(360deg);
+}
+/* ======================
+     CHOOSE PART CSS END
+==========================*/
+
+/* ======================
+     REVIEW PART CSS START 
+==========================*/
+#review {
+  margin: 50px 0;
+}
+#review h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #151515;
+  text-align: center;
+}
+#review p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  text-align: center;
+  padding: 0 240px;
+  margin-bottom: 40px;
+}
+#review .review-main .review-item {
+  width: 30%;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  transition: all linear 0.4s;
+  position: relative;
+  margin: 30px 20px;
+  margin-top: 145px;
+}
+#review .review-main .review-item:hover {
+  box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+}
+#review .review-main .slick-center {
+  margin-top: 30px;
+  box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.29);
+}
+#review .review-main .review-item p {
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#review .review-main .review-item .coma {
+  color: #f0edfe;
+  font-size: 40px;
+}
+#review .review-main .review-item .icon i {
+  color: #ffac4a;
+  margin-bottom: 15px;
+}
+#review .review-main .review-item h5 {
+  margin: 0;
+  margin-left: 59px;
+}
+#review .review-main .review-item .ux {
+  margin: 0;
+  padding: 0;
+  margin-left: 60px;
+}
+#review .review-main .review-item .ellipse-31 {
+  position: absolute;
+  bottom: 9%;
+  left: 9%;
+}
+#review .review-main ul {
+	display: block;
+	position: absolute;
+	left: 44%;
+	top: 75%;
+}
+#review .review-main ul li{
+  display: inline-block;
+  margin: 6px;
+}
+#review .review-main ul li button {
+  font-size: 0;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  background: #f0edfe;
+  border-radius: 50%;
+}
+#review .review-main ul .slick-active button {
+  background: #6A4DF4;
+}
+/* ======================
+     REVIEW PART CSS END 
+==========================*/
+
+/* ==============
+  QUOTE PART CSS START
+======================*/
+
+#quote {
+  padding: 150px;
+  background: var(--secondarybgcolor);
+}
+
+#quote .quote-left {
+  margin-top: 180px;
+}
+
+#quote .quote-left h2 {
+  font-family: var(--family);
+  font-weight: var(--tertiaryweight);
+  font-size: 45px;
+  color: var(--headingcolor);
+  padding-right: 10%;
+}
+
+#quote .quote-left p {
+  font-family: var(--family);
+  font-weight: var(--primaryweight);
+  font-size: 16px;
+  color: var(--subheadingcolor);
+  line-height: 26px;
+  padding-right: 4%;
+  margin-top: 20px;
+}
+
+#quote .quote-right {
+  padding: 60px 40px;
+  background: var(--commoncolor);
+  border-radius: 20px;
+}
+
+#quote .quote-right h3 {
+  font-family: var(--family);
+  font-weight: var(--tertiaryweight);
+  font-size: 30px;
+  color: var(--headingcolor);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#quote .quote-right h5 {
+  font-family: var(--family);
+  font-weight: var(--quaternary);
+  font-size: 16px;
+  color: var(--headingcolor);
+}
+
+#quote .quote-right input {
+  width: 100%;
+  padding: 20px 23px;
+  border: 1px solid var(--bordercolor);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#quote .quote-right input::placeholder {
+  font-family: var(--family);
+  font-weight: var(--primaryweight);
+  font-size: 16px;
+  color: var(--subheadingcolor);
+  line-height: 26px;
+}
+
+#quote .quote-right button {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: var(--primarycolor);
+  border-radius: 10px;
+  font-family: var(--family);
+  font-weight: var(--scondaryweight);
+  font-size: 20px;
+  color: var(--commoncolor);
+  margin-top: 10px;
+  border: 0;
+}
+
+/* ==============
+QUOTE PART CSS END 
+======================*/
+
+/* ==============
+FOOTER PART CSS START
+======================*/
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  font-family: var(--family);
+  font-weight: var(--primaryweight);
+  font-size: 16px;
+  color: var(--subheadingcolor);
+  line-height: 26px;
+  margin-top: 30px;
+}
+
+footer h4 {
+  font-family: var(--family);
+  font-size: 20px;
+  font-weight: var(--scondaryweight);
+  color: var(--headingcolor);
+  margin-bottom: 40px;
+}
+
+footer ul li a {
+  font-family: var(--family);
+  font-weight: var(--primaryweight);
+  font-size: 16px;
+  color: var(--subheadingcolor);
+  line-height: 40px;
+  display: inline-block;
+}
+
+footer .copy-right {
+  margin-top: 50px;
+  border-top: 1px solid var(--bordercolor);
+}
+
+footer .copy-right p {
+  margin-top: 20px;
+}
+
+/* ==============
+FOOTER PART CSS END 
+======================*/
+
